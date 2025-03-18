@@ -8,7 +8,7 @@ public class ContaTerminal {
         String nomeCliente;
         Double saldo = 2376.48;
 
-        System.out.println("Bem vindo ao banco Principal");
+        System.out.println("Bem-vindo ao banco Principal");
 
         System.out.println("===============");
 
