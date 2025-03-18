@@ -26,5 +26,7 @@ public class ContaTerminal {
                 .concat("! Obrigado por criar uma conta em nosso banco, sua agência é ").concat(agencia)
                 .concat(", conta ") + numero + " e seu saldo " + saldo + " já está disponível para saque.");
 
+        scanner.close();
+
     }
 }
