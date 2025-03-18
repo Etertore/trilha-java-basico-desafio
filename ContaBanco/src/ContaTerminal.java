@@ -6,20 +6,21 @@ public class ContaTerminal {
         int numero;
         String agencia;
         String nomeCliente;
-        Double saldo = 237.48;
+        Double saldo = 2376.48;
 
         System.out.println("Bem vindo ao banco Principal");
 
         System.out.println("===============");
 
-        System.out.println("Por favor, digite o número da conta e tecle ENTER: ");
+        System.out.println("Por favor, digite o número da conta: ");
+        System.out.println("(depois ENTER para o próximo campo)");
         numero = scanner.nextInt();
 
-        System.out.println("digite o número da agência com o hífen: ");
+        System.out.println("Digite o número da agência: ");
+        System.out.println("(depois ENTER para o próximo campo)");
         agencia = scanner.next();
 
         System.out.println("Digite o nome do cliente: ");
-
         nomeCliente = scanner.next();
 
         System.out.println("Olá, ".concat(nomeCliente)
