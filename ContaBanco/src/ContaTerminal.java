@@ -10,7 +10,7 @@ public class ContaTerminal {
 
         System.out.println("Bem-vindo ao banco Principal");
 
-        System.out.println("===============");
+        System.out.println("============================");
 
         System.out.println("Por favor, digite o número da conta: ");
         System.out.println("(depois ENTER para o próximo campo)");
